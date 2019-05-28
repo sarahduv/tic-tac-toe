@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/background.png');
+}
+
+#grid {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.gridCell {
+  background-color: cornflowerblue;
+  height: 160px;
+  width: 160px;
+  transition: all, 0.1s;
+}
+
+.gridCell:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.cellPlayer_0 {
+  background-image: url('../img/grayson.jpg');
+  background-size: 321px;
+  background-position-x: -44px;
+  background-position-y: -42px;
+}
+
+.cellPlayer_1 {
+  background-image: url('../img/austin.jpg');
+  background-size: 310px;
+  background-position-x: -146px;
+  background-position-y: -22px;
+}
+
+.explainScanned {
+  border: 3px solid green;
+}
+
+.explainCheck {
+  border: 3px solid blue;
+}
+
+.explainSource {
+  border: 3px solid yellow;
+}
